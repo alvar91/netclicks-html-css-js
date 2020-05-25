@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Netclicks - все о сериалах</title>
+
+</head>
+
+<body>
+<div class="left-menu">
+    <div class="hamburger active">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="left-menu__list">
+        <li>
+            <a href="#" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <span>ПОИСК</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="dropdown">
+                <i class="fa fa-trophy" aria-hidden="true"></i>
+                <span>РЕЙТИНГ</span>
+            </a>
+            <ul class="dropdown-list">
+                <li>
+                    <a href="#" id="top-rated">
+                        <span>Топ сериалы</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="popular">
+                        <span>Популярные</span>
+                    </a>
+                </li>
+
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="dropdown">
+                <i class="fa fa-tv" aria-hidden="true"></i>
+                <span>НОВЫЕ ЭПИЗОДЫ</span>
+            </a>
+            <ul class="dropdown-list">
+                <li>
+                    <a href="#" id="today">
+                        <span>Сегодня</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="week">
+                        <span>На неделю</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<header>
+    <div class="container header-flex">
+        <hgroup class="title-wrapper">
+            <h1 class="title">Netclicks</h1>
+            <h2 class="subtitle">все о сериалах</h2>
+        </hgroup>
+
+        <section class="search">
+            <form class="search__form">
+                <h2 class="search__form-head">Поиск</h2>
+                <label class="search__form-block">
+                    <input type="text" class="search__form-input" id="searchText"
+                           placeholder="Введи название...">
+                </label>
+            </form>
+        </section>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <section class="tv-shows">
+            <h3 class="tv-shows__head">Результат поиска</h3>
+            <ul class="tv-shows__list">
+                 <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">7.4</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/fhV9ckyBko1ZejEEmwdiXG8YMy5.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/AdJgkXb8oLI8e4rsk8XzkvABIuw.jpg"
+                             alt="Звёздные войны: Повстанцы">
+                        <h4 class="tv-card__head">Звёздные войны: Повстанцы</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">8.1</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/o9XEd15zRzef9SlOuJYPdS5HCdK.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/lXWgVQ1whAEMz4Ju88UyPoveIKD.jpg"
+                             alt="Звёздные войны: Войны клонов">
+                        <h4 class="tv-card__head">Звёздные войны: Войны клонов</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">7.1</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/2lsuke69bRdyB1sxtKmavtwkc35.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/pxkeqSHfTkefKz0y5naAX1u9cDw.jpg"
+                             alt="Звёздные войны. Войны клонов">
+                        <h4 class="tv-card__head">Звёздные войны. Войны клонов</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">6.4</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/xul6SG8rar3wkHPY8YusUtxcdlZ.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/9eXNA3K010TlkUTLSzQ07cP6uPF.jpg"
+                             alt="Звёздные войны: Сопротивление">
+                        <h4 class="tv-card__head">Звёздные войны: Сопротивление</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">4.2</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/z8l5c046nQ9KoHpKIrcTBw7P7dL.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/z8l5c046nQ9KoHpKIrcTBw7P7dL.jpg"
+                             alt="Дроиды">
+                        <h4 class="tv-card__head">Дроиды</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">6.6</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/uv7QkoePPK5PfpYVVim6JI8DEpO.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/afHWBChQ16H1xutbtq2lrKFC4TF.jpg"
+                             alt="Эвоки">
+                        <h4 class="tv-card__head">Эвоки</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">6.3</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/f2tf2EuXM6hP2OkRWWmIB0uj6HV.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/a68xDZ48UnzN5KpTwp0UQLyYSYn.jpg"
+                             alt="Disney Gallery / Star Wars: The Mandalorian">
+                        <h4 class="tv-card__head">Disney Gallery / Star Wars: The Mandalorian</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">4.6</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/a5d2y264VgYUvpKUNNT6EbL1Cwb.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/rfxCWSwzkeeQne9Mb8kNPDqZYBC.jpg"
+                             alt="Звёздные войны: Силы судьбы">
+                        <h4 class="tv-card__head">Звёздные войны: Силы судьбы</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">6.1</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/latxtxQYgODFBwh3dO2TGT3Ooat.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/hytEUV61X3Tp2EOaUZkayH98xVy.jpg"
+                             alt="Lego Звездные войны: Байки дроидов">
+                        <h4 class="tv-card__head">Lego Звездные войны: Байки дроидов</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">7.3</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/1uI5ZG2eGEV25n3klN4M1SrJCl0.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/4sHLM2pdGuKFaPxNsaXNR2mf108.jpg"
+                             alt="ЛЕГО. Звездные войны. Приключения изобретателей">
+                        <h4 class="tv-card__head">ЛЕГО. Звездные войны. Приключения изобретателей</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">6.8</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/1S1j1QxwLNPNiUrq8GSg05KkAmY.jpg"
+                             data-backdrop="" alt="Lego Звездные войны: Хроники Йоды">
+                        <h4 class="tv-card__head">Lego Звездные войны: Хроники Йоды</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">8</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/97dmYYI7TACdGvXWQd2sIyMq16n.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/v5R177GUoZXooZgyLGPntHgb9OC.jpg"
+                             alt="LEGO Star Wars: All-Stars">
+                        <h4 class="tv-card__head">LEGO Star Wars: All-Stars</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">7.5</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/rwYL1fGB004owaTmprYmx8STKqq.jpg"
+                             data-backdrop="" alt="Star Wars Rebels Recon">
+                        <h4 class="tv-card__head">Star Wars Rebels Recon</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">5.8</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/z2q1RjIX1S2GDc75f4ohT3GQBoK.jpg"
+                             data-backdrop="" alt="Star Wars Galaxy of Adventures">
+                        <h4 class="tv-card__head">Star Wars Galaxy of Adventures</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/bTaX5IDnbueFD0eHeUJVwUpyjcT.jpg"
+                             data-backdrop="" alt="Science of Star Wars">
+                        <h4 class="tv-card__head">Science of Star Wars</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+
+                        <img class="tv-card__img" src="./img/no-poster.jpg" data-backdrop=""
+                             alt="I've Never Seen Star Wars">
+                        <h4 class="tv-card__head">I've Never Seen Star Wars</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+                        <span class="tv-card__vote">6.2</span>
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/iWTvTLpA83iNj2fG9TxomEo7b5M.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/op6aQ6p9QGmFUxErOGSVHzyUC2R.jpg"
+                             alt="LEGO Star Wars: The Resistance Rises">
+                        <h4 class="tv-card__head">LEGO Star Wars: The Resistance Rises</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+
+                        <img class="tv-card__img" src="./img/no-poster.jpg" data-backdrop=""
+                             alt="Star Wars live-action TV series">
+                        <h4 class="tv-card__head">Star Wars live-action TV series</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+
+                        <img class="tv-card__img"
+                             src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/cPWxWAlsJw1QVNNuufPzZzebVtY.jpg"
+                             data-backdrop="https://image.tmdb.org/t/p/w185_and_h278_bestv2/3bBC4u27W4TfOkCVKds7nofJCfe.jpg"
+                             alt="Star Wars: Jedi Temple Challenge">
+                        <h4 class="tv-card__head">Star Wars: Jedi Temple Challenge</h4>
+                    </a>
+                </li>
+                <li class="tv-shows__item">
+                    <a href="#" class="tv-card">
+
+                        <img class="tv-card__img" src="./img/no-poster.jpg" data-backdrop=""
+                             alt="Untitled Star Wars: Rogue One Prequel Series">
+                        <h4 class="tv-card__head">Untitled Star Wars: Rogue One Prequel Series</h4>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+</main>
+
+<div class="modal hide">
+    <div class="modal__content">
+            <div class="poster__wrapper">
+                <div class="poster">
+                    <div class="image__content">
+                        <img class="tv-card__img"
+                             src="img/no-poster.jpg"
+                             alt="Название шоу">
+                    </div>
+
+                </div>
+            </div>
+
+            <article class="modal__description">
+                <h2 class="modal__title">
+                    Название шоу
+                </h2>
+
+                <section class="genres">
+                    <h3>Жанр:</h3>
+                    <ul class="genres-list">
+                        <li>Документальный</li>
+                        <li>Мелодрама</li>
+                        <li>Мультфильм для взрослых</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Рейтинг</h3>
+                    <span class="rating">10</span>
+                </section>
+
+
+                <section class="header__info">
+
+
+                    <h3 dir="auto">Обзор: </h3>
+                    <div class="overview" dir="auto">
+
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ut
+                            vero, commodi quaerat quasi animi nam corporis hic debitis nulla, ullam non. Quia cupiditate
+                            quo obcaecati hic. Molestiae, numquam natus!</p>
+
+                    </div>
+                    <p class="modal__link-wrapper">
+                        <a class="modal__link" href="https://google.com" target="_blanc">Оффициальная страница</a>
+                    </p>
+                </section>
+            </article>
+            <div class="cross">
+                <span></span>
+                <span></span>
+            </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="preloader">
+    <div class="preloader-wrapper">
+        <div class="preloader-one"></div>
+        <div class="preloader-one"></div>
+        <div class="preloader-one"></div>
+        <div class="preloader-one"></div>
+        <div class="preloader-two"></div>
+        <div class="preloader-three"></div>
+    </div>
+</div>
+
+
+
+<script src="https://use.fontawesome.com/c79e2f3459.js"></script>
+
+</body>
+
+</html>

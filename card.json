@@ -1,0 +1,143 @@
+{
+    "backdrop_path": "/AdJgkXb8oLI8e4rsk8XzkvABIuw.jpg",
+    "created_by": [
+      {
+        "id": 11092,
+        "credit_id": "537f77d60e0a2624bd00547c",
+        "name": "Simon Kinberg",
+        "gender": 2,
+        "profile_path": "/3xvTvkIaKfU276cpajiAoGjvaaO.jpg"
+      },
+      {
+        "id": 71538,
+        "credit_id": "543368cfc3a36811ef0065dc",
+        "name": "Dave Filoni",
+        "gender": 2,
+        "profile_path": "/iMpXDe7D3eimy3Y8esJcF9czVbm.jpg"
+      },
+      {
+        "id": 1371864,
+        "credit_id": "543368d40e0a2658720064f1",
+        "name": "Carrie Beck",
+        "gender": 0,
+        "profile_path": null
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2014-10-13",
+    "genres": [
+      {
+        "id": 10759,
+        "name": "Боевик и Приключения"
+      },
+      {
+        "id": 16,
+        "name": "мультфильм"
+      }
+    ],
+    "homepage": "http://disneyxd.disney.com/star-wars-rebels",
+    "id": 60554,
+    "in_production": false,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2018-03-05",
+    "last_episode_to_air": {
+      "air_date": "2018-03-05",
+      "episode_number": 16,
+      "id": 1952809,
+      "name": "Эпизод 16",
+      "overview": "",
+      "production_code": "",
+      "season_number": 4,
+      "show_id": 60554,
+      "still_path": "/957AMS0Gh0nQGtngiUJfnxVfJ6Z.jpg",
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    "name": "Звёздные войны: Повстанцы",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "name": "Disney XD",
+        "id": 44,
+        "logo_path": "/nKM9EnV7jTpt3MKRbhBusJ03lAY.png",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 69,
+    "number_of_seasons": 4,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Star Wars Rebels",
+    "overview": "Для Галактики настали тёмные времена. Поглощая один мир за другим, Империя продолжает наращивать свою мощь. Имперские войска, оккупировавшие отдаленную планету, устанавливают на ней деспотический режим. Но находятся смельчаки, готовые противостоять силам Империи. Это экипаж космического корабля «Призрак»! Команде повстанцев предстоит столкнуться лицом к лицу с новыми грозными противниками и стать героями, способными поднять восстание.",
+    "popularity": 35.365,
+    "poster_path": "/fhV9ckyBko1ZejEEmwdiXG8YMy5.jpg",
+    "production_companies": [
+      {
+        "id": 1,
+        "logo_path": "/o86DbpburjxrqAzEDhXZcyE8pDb.png",
+        "name": "Lucasfilm",
+        "origin_country": "US"
+      },
+      {
+        "id": 108270,
+        "logo_path": "/b34gQGmEWBm1NapuqEjBD6oNbWj.png",
+        "name": "Lucasfilm Animation",
+        "origin_country": "US"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2014-08-10",
+        "episode_count": 12,
+        "id": 62929,
+        "name": "Спецматериалы",
+        "overview": "",
+        "poster_path": "/jrDSmt0DRix2aqY7Zi15AfwZoM1.jpg",
+        "season_number": 0
+      },
+      {
+        "air_date": "2014-10-13",
+        "episode_count": 13,
+        "id": 59855,
+        "name": "Сезон 1",
+        "overview": "",
+        "poster_path": "/zPu9N90wS3GecpnmdVJIlKEbwsc.jpg",
+        "season_number": 1
+      },
+      {
+        "air_date": "2015-10-14",
+        "episode_count": 19,
+        "id": 66362,
+        "name": "Сезон 2",
+        "overview": "",
+        "poster_path": "/nEMQByxaTWb4UI2SMgClo4OwFmr.jpg",
+        "season_number": 2
+      },
+      {
+        "air_date": "2016-09-24",
+        "episode_count": 21,
+        "id": 80258,
+        "name": "Сезон 3",
+        "overview": "",
+        "poster_path": "/vQ1ZLi40EIAmVNYZEHhRbPb9jKp.jpg",
+        "season_number": 3
+      },
+      {
+        "air_date": "2017-10-15",
+        "episode_count": 16,
+        "id": 94056,
+        "name": "Сезон 4",
+        "overview": "",
+        "poster_path": "/rNXUEY3CFmq6dsx3gf38xq0MXLX.jpg",
+        "season_number": 4
+      }
+    ],
+    "status": "Ended",
+    "type": "Scripted",
+    "vote_average": 7.4,
+    "vote_count": 229
+  }
