@@ -22,7 +22,8 @@ const leftMenu = document.querySelector(".left-menu"),
   tvShowsHead = document.querySelector(".tv-shows__head"),
   posterWrapper = document.querySelector(".poster__wrapper"),
   modalContent = document.querySelector(".modal__content"),
-  pagination = document.querySelector(".pagination");
+  trailer = document.getElementById("trailer"),
+  headTrailer = document.getElementById("headTrailer");
 
 const loading = document.createElement("div");
 loading.className = "loading";
@@ -106,6 +107,28 @@ tvShowsList.addEventListener("click", (event) => {
         rating.textContent = response.vote_average;
         description.textContent = response.overview;
         modalLink.href = response.homepage;
+        return response.id;
+      })
+      .then(dbService.getVideo)
+      .then((response) => {
+        headTrailer.classList.add("hide");
+        trailer.textContent = "";
+        if (response.results.length) {
+          headTrailer.classList.remove("hide");
+          response.results.forEach((item) => {
+            const trailerItem = document.createElement("li");
+            trailerItem.innerHTML = `
+              <iframe width="460" 
+                height="300" 
+                src="https://www.youtube.com/embed/${item.key}" 
+                frameborder="0"; 
+                allowfullscreen>
+              </iframe>
+              <h4>${item.name}</h4>
+            `;
+            trailer.append(trailerItem);
+          });
+        }
       })
       .then(() => {
         document.body.style.overflow = "hidden";
@@ -196,6 +219,12 @@ const DBService = class {
   getWeek = () => {
     return this.getData(
       `${SERVER}/tv/on_the_air?api_key=${API_KEY}&language=ru-RU`
+    );
+  };
+
+  getVideo = (id) => {
+    return this.getData(
+      `${SERVER}/tv/${id}/videos?api_key=${API_KEY}&language=ru-RU`
     );
   };
 };
